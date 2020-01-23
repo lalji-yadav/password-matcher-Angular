@@ -1,0 +1,11 @@
+#Anub{
+    width: 70%;
+    float: right;
+}
+
+#btn{
+    border-radius: 35px;
+    height: 40px;
+    width: 180px;
+    background-color: white;
+}

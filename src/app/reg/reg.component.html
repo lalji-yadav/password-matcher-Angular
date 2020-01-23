@@ -1,0 +1,132 @@
+
+    <div>
+            <div class="shadow p-3 mb-5 bg-white rounded" id="Anub">
+               <h1>Register</h1> <br>
+               <p> Just a couple of details to get you started on collabrative platform for the industry</p>
+                
+               <div class="container">
+                  <!--Form -------------------> 
+                 <form>
+                    <div class="row">
+
+                      <!--Login Detail------------------ -------------------> 
+                      <div class="col-sm-4">
+                        <h6 style="border-bottom: 1px solid gray">Login Details</h6>
+
+                        <mat-form-field>
+                            <input matInput placeholder="Username">
+                          </mat-form-field>
+
+                          <mat-form-field>
+                           <input matInput placeholder="Email ID">
+                          </mat-form-field>
+
+                          <mat-form-field>
+                            <input matInput placeholder="Phone Number">
+                          </mat-form-field>
+
+                          <mat-form-field>
+                             <mat-label>Country</mat-label>
+                             <mat-select>
+                               <mat-option *ngFor="let food of foods" [value]="food.value">
+                                 {{food.viewValue}}
+                               </mat-option>
+                             </mat-select>
+                           </mat-form-field> 
+
+                          <mat-form-field>
+                            <input matInput placeholder="Password">
+                          </mat-form-field>
+
+                         <mat-form-field>
+                            <input matInput placeholder="Confirm Password">
+                         </mat-form-field>
+
+                      </div>
+
+
+
+                      <!--Personal details--------------------- -------------------> 
+                      <div class="col-sm-4">
+                        <h6 style="border-bottom: 1px solid gray">Personal Details</h6>
+
+                        <mat-form-field>
+                            <input matInput placeholder="Full Name">
+                          </mat-form-field>
+
+                          <mat-form-field>
+                            <input matInput placeholder="Date of Birth">
+                          </mat-form-field>
+
+                      </div>
+
+
+
+                      <!--Company Details ---------- ----------------------------------------> 
+                      <div class="col-sm-4">
+                        <h6 style="border-bottom: 1px solid gray">Company Details</h6>
+                        
+                        <mat-form-field>
+                            <input matInput placeholder="Company Name">
+                          </mat-form-field>
+
+                          <mat-form-field>
+                            <input matInput placeholder="Company Contact Numer">
+                         </mat-form-field>
+                       
+                         <mat-form-field>
+                               <input matInput placeholder="Company Email ID">
+                         </mat-form-field>
+                          
+                          <mat-form-field>
+                            <mat-label>Company Country of Incorporation</mat-label>
+                            <mat-select>
+                              <mat-option *ngFor="let food of foods" [value]="food.value">
+                                {{food.viewValue}}
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+
+                             <mat-form-field>
+                                  <input matInput placeholder="Company Addresh">
+                                </mat-form-field>
+
+                          <!-- City and State-->
+                         <div class="row">
+                          <div class="col-sm-6">  
+                           
+                             <mat-form-field>
+                                  <input matInput placeholder="City">
+                                </mat-form-field>  
+
+                         </div>
+                         <div class="col-sm-6">  
+                          
+                             <mat-form-field>
+                                  <input matInput placeholder="State">
+                                </mat-form-field>
+                         </div>
+                         </div>
+                          <mat-form-field>
+                             <input matInput placeholder="Pincode">
+                          </mat-form-field>
+                          
+                          <button type="submit" id="btn"> Complete </button>
+
+
+
+                      </div>
+                      
+                      <!--Close Row ------------------------------ -------------------> 
+                    </div>
+
+                 </form>
+                 <!--Form ---------------------------------------------------------> 
+              </div>
+           <!--Shadow---------------------------------------------------------->
+            </div>
+            <!--Statrt--------------------------------------------------------------->
+    </div>
+
+                                                     
+   

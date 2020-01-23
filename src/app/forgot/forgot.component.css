@@ -1,0 +1,24 @@
+#Anub{
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.example-container {
+    display: flex;
+    flex-direction: column;
+  }
+button {
+    border-radius: 35px;
+    height: 40px;
+    width: 180px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  .example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
